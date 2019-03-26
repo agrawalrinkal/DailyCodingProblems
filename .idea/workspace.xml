@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67316ecf-edc8-4b8a-a49d-f8962814ab93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/impl/MinCostToPaintNum19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/MinCostToPaintNum19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +13,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/impl/MinCostToPaintNum19.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="194">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#2198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/impl/SudokuSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/SudokuSolverTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,8 +49,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/MinCostToPaintNum19Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,6 +67,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[</find>
+      <find>&quot;</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -50,6 +83,8 @@
         <option value="$PROJECT_DIR$/src/impl/problem19/MinCostToPaintNum19.java" />
         <option value="$PROJECT_DIR$/src/tests/MinCostToPaintNum19Test.java" />
         <option value="$PROJECT_DIR$/src/impl/MinCostToPaintNum19.java" />
+        <option value="$PROJECT_DIR$/src/tests/SudokuSolverTests.java" />
+        <option value="$PROJECT_DIR$/src/impl/SudokuSolver.java" />
       </list>
     </option>
   </component>
@@ -101,7 +136,7 @@
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553452836872" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553569375673" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinCostToPaintNum19Test (1)">
+  <component name="RunManager" selected="JUnit.SudokuSolverTests">
     <configuration name="MinCostToPaintNum19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinCostToPaintNum19" />
       <module name="DailyCodingProblems" />
@@ -147,8 +182,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SudokuSolverTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DailyCodingProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SudokuSolverTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SudokuSolverTests" />
         <item itemvalue="JUnit.MinCostToPaintNum19Test (1)" />
         <item itemvalue="JUnit.MinCostToPaintNum19Test" />
         <item itemvalue="Application.MinCostToPaintNum19" />
@@ -169,23 +220,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinCostToPaintNum19Test - 2019.03.24 at 13h 24m 37s.xml">
-      <configuration name="MinCostToPaintNum19Test" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 49m 19s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinCostToPaintNum19Test - 2019.03.24 at 13h 27m 28s.xml">
-      <configuration name="MinCostToPaintNum19Test" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 50m 45s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinCostToPaintNum19Test_(1) - 2019.03.24 at 13h 32m 16s.xml">
-      <configuration name="MinCostToPaintNum19Test (1)" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 51m 08s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinCostToPaintNum19Test_(1) - 2019.03.24 at 13h 34m 41s.xml">
-      <configuration name="MinCostToPaintNum19Test (1)" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 51m 30s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinCostToPaintNum19Test_(1) - 2019.03.24 at 13h 36m 01s.xml">
-      <configuration name="MinCostToPaintNum19Test (1)" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 51m 51s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinCostToPaintNum19Test_(1) - 2019.03.24 at 13h 38m 08s.xml">
-      <configuration name="MinCostToPaintNum19Test (1)" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 52m 10s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 58m 46s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 22h 00m 28s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 22h 01m 41s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 22h 02m 01s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -202,9 +265,9 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32885906" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -249,17 +312,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/MinCostToPaintNum19Test.java">
+    <entry file="file://$PROJECT_DIR$/src/impl/MinCostToPaintNum19.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="194">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#2198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/impl/MinCostToPaintNum19.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/MinCostToPaintNum19Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/SudokuSolverTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/impl/SudokuSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
