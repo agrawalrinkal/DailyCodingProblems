@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67316ecf-edc8-4b8a-a49d-f8962814ab93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67316ecf-edc8-4b8a-a49d-f8962814ab93" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +23,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/impl/SudokuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/impl/WalkThroughMatrixWithWalls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/WalkThroughMatrixWithWallsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -64,6 +87,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -85,6 +109,9 @@
         <option value="$PROJECT_DIR$/src/impl/MinCostToPaintNum19.java" />
         <option value="$PROJECT_DIR$/src/tests/SudokuSolverTests.java" />
         <option value="$PROJECT_DIR$/src/impl/SudokuSolver.java" />
+        <option value="$PROJECT_DIR$/src/tests/WalkThroughMatrixWithWallsTest.groovy" />
+        <option value="$PROJECT_DIR$/src/tests/WalkThroughMatrixWithWallsTest.java" />
+        <option value="$PROJECT_DIR$/src/impl/WalkThroughMatrixWithWalls.java" />
       </list>
     </option>
   </component>
@@ -93,6 +120,9 @@
     <option name="y" value="43" />
     <option name="width" value="1391" />
     <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,7 +166,20 @@
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553569375673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553795100341" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SudokuSolverTests">
+  <component name="RunManager" selected="JUnit.WalkThroughMatrixWithWallsTest">
     <configuration name="MinCostToPaintNum19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinCostToPaintNum19" />
       <module name="DailyCodingProblems" />
@@ -197,8 +240,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit">
+      <module name="DailyCodingProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalkThroughMatrixWithWallsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DailyCodingProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.WalkThroughMatrixWithWallsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WalkThroughMatrixWithWallsTest" />
         <item itemvalue="JUnit.SudokuSolverTests" />
         <item itemvalue="JUnit.MinCostToPaintNum19Test (1)" />
         <item itemvalue="JUnit.MinCostToPaintNum19Test" />
@@ -220,35 +296,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 49m 19s.xml">
-      <configuration name="SudokuSolverTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 50m 45s.xml">
-      <configuration name="SudokuSolverTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 51m 08s.xml">
-      <configuration name="SudokuSolverTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 51m 30s.xml">
-      <configuration name="SudokuSolverTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 51m 51s.xml">
-      <configuration name="SudokuSolverTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 52m 10s.xml">
-      <configuration name="SudokuSolverTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTests - 2019.03.25 at 21h 58m 46s.xml">
-      <configuration name="SudokuSolverTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTests - 2019.03.25 at 22h 00m 28s.xml">
-      <configuration name="SudokuSolverTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SudokuSolverTests - 2019.03.25 at 22h 01m 41s.xml">
       <configuration name="SudokuSolverTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SudokuSolverTests - 2019.03.25 at 22h 02m 01s.xml">
       <configuration name="SudokuSolverTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTests - 2019.03.25 at 22h 03m 00s.xml">
+      <configuration name="SudokuSolverTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkThroughMatrixWithWallsTest - 2019.03.28 at 12h 37m 13s.xml">
+      <configuration name="WalkThroughMatrixWithWallsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkThroughMatrixWithWallsTest - 2019.03.28 at 12h 38m 31s.xml">
+      <configuration name="WalkThroughMatrixWithWallsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkThroughMatrixWithWallsTest - 2019.03.28 at 12h 39m 09s.xml">
+      <configuration name="WalkThroughMatrixWithWallsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkThroughMatrixWithWallsTest - 2019.03.28 at 12h 39m 12s.xml">
+      <configuration name="WalkThroughMatrixWithWallsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkThroughMatrixWithWallsTest - 2019.03.28 at 12h 40m 22s.xml">
+      <configuration name="WalkThroughMatrixWithWallsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkThroughMatrixWithWallsTest - 2019.03.28 at 12h 43m 35s.xml">
+      <configuration name="WalkThroughMatrixWithWallsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WalkThroughMatrixWithWallsTest - 2019.03.28 at 12h 43m 57s.xml">
+      <configuration name="WalkThroughMatrixWithWallsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -282,6 +358,18 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/impl/WalkThroughMatrixWithWalls.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
@@ -344,8 +432,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/impl/SudokuSolver.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/WalkThroughMatrixWithWallsTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/WalkThroughMatrixWithWallsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/impl/WalkThroughMatrixWithWalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
