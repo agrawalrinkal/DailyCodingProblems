@@ -61,6 +61,7 @@ public class TicTacToe {
                     // check if AI can make a move and won
                     this.board[i][j] = 'x';
                     this.addToDiagonal(i, j, 'x');
+                    this.emptyMoves--;
                     if (this.checkIfWon(i, j, 'x')) {
                         this.board[i][j] = 'x';
                         this.emptyMoves--;
@@ -69,6 +70,7 @@ public class TicTacToe {
                     }
                     this.board[i][j] = '_';
                     this.removeFromDiagonal(i, j, 'x');
+                    this.emptyMoves++;
                 }
             }
         }
@@ -80,6 +82,7 @@ public class TicTacToe {
                     // check if AI can block a move for the player
                     this.board[i][j] = 'o';
                     this.addToDiagonal(i, j, 'o');
+                    this.emptyMoves--;
                     if (this.checkIfWon(i, j, 'o')) {
                         this.board[i][j] = 'x';
                         this.emptyMoves--;
@@ -89,6 +92,7 @@ public class TicTacToe {
                     }
                     this.board[i][j] = '_';
                     this.removeFromDiagonal(i, j, 'o');
+                    this.emptyMoves++;
                 }
             }
         }
@@ -213,7 +217,7 @@ public class TicTacToe {
             int i = scan.nextInt();
             int j = scan.nextInt();
             if(i < 0 || j < 0 || i >= game.boardSize || j >= game.boardSize || !game.isValidMove(i, j)) {
-                System.out.println("Please enter valid move");
+                System.out.println("Please make a valid move");
                 continue;
             }
 
