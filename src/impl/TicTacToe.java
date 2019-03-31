@@ -20,6 +20,9 @@ public class TicTacToe {
         this.initializeGame();
     }
 
+    /**
+     * Initializes the board
+     */
     public void initializeGame() {
         this.emptyMoves = this.boardSize * this.boardSize;
         this.board = new char[this.boardSize][this.boardSize];
