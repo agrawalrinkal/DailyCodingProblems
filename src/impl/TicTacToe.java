@@ -17,8 +17,12 @@ public class TicTacToe {
      */
     TicTacToe(int size) {
         this.boardSize = size;
+        this.initializeGame();
+    }
+
+    public void initializeGame() {
         this.emptyMoves = this.boardSize * this.boardSize;
-        this.board = new char[size][size];
+        this.board = new char[this.boardSize][this.boardSize];
         for(int i = 0; i < this.boardSize; i++) {
             for(int j = 0; j < this.boardSize; j++) {
                 this.board[i][j] = '_';
@@ -64,7 +68,6 @@ public class TicTacToe {
                     this.emptyMoves--;
                     if (this.checkIfWon(i, j, 'x')) {
                         this.board[i][j] = 'x';
-                        this.emptyMoves--;
                         this.addToDiagonal(i, j, 'x');
                         return true;
                     }
@@ -85,7 +88,6 @@ public class TicTacToe {
                     this.emptyMoves--;
                     if (this.checkIfWon(i, j, 'o')) {
                         this.board[i][j] = 'x';
-                        this.emptyMoves--;
                         this.addToDiagonal(i, j, 'x');
                         if (this.checkIfWon(i, j, 'x')) return true;
                         return false;
@@ -117,7 +119,7 @@ public class TicTacToe {
      * @param j
      * @param sign
      */
-    public void addToDiagonal(int i, int j, char sign) {
+    private void addToDiagonal(int i, int j, char sign) {
         if(i == j) this.positiveDiagonal.add(sign);
         if(i + j == this.boardSize - 1) this.negativeDiagonal.add(sign);
     }
@@ -128,7 +130,7 @@ public class TicTacToe {
      * @param j
      * @param sign
      */
-    public void removeFromDiagonal(int i, int j, char sign) {
+    private void removeFromDiagonal(int i, int j, char sign) {
         if(i == j) this.positiveDiagonal.remove(Character.valueOf(sign));
         if(i + j == this.boardSize - 1) this.negativeDiagonal.remove(Character.valueOf(sign));
     }
@@ -155,7 +157,7 @@ public class TicTacToe {
      * @param sign
      * @return
      */
-    public boolean checkIfWon(int x, int y, char sign) {
+    private boolean checkIfWon(int x, int y, char sign) {
         // check row
         for(int j = 0; j < this.boardSize; j++) {
             if(this.board[x][j] != sign) break;
@@ -200,7 +202,7 @@ public class TicTacToe {
      * @param sign
      * @return
      */
-    public boolean checkDiagonals(char sign) {
+    private boolean checkDiagonals(char sign) {
         if(this.positiveDiagonal.size() == this.boardSize && !this.positiveDiagonal.contains(sign)) return true;
         if(this.negativeDiagonal.size() == this.boardSize && !this.negativeDiagonal.contains(sign)) return true;
         return false;
@@ -235,7 +237,10 @@ public class TicTacToe {
             }
             if(game.isBoardFull()) {
                 game.printBoard();
-                System.out.println("No One WON, Please play again!!");
+                System.out.println("No One WON, Do you want to play again? (y/n)");
+                String playAgain = scan.next();
+                if(playAgain.equals("y")) game.initializeGame();
+                else break;
             }
         }
 
